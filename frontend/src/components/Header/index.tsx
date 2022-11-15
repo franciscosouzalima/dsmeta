@@ -2,7 +2,7 @@ import logo from "../../assets/img/logo.svg"
 
 import "./styles.css"
 
-export function Header() {
+function Header() {
   return (
     <header>
       <div className="dsmeta-logo-container">
@@ -16,3 +16,5 @@ export function Header() {
     </header>
   )
 }
+
+export default Header
